@@ -5,7 +5,7 @@ exports.getAdmin = (rea, res, next) => {
     res.status(200).json({
       email: "akhigbesadiq@gmail.com",
       current_datatime: currentDate,
-      github_url: "soon",
+      github_url: "https://github.com/abodiamhe/back-end-task-0",
     });
   } catch (err) {
     err.statusCode = 500;
