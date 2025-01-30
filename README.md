@@ -5,7 +5,7 @@
 
 This project is task 0 from the HNG12 Internship program which will display the user email, current date in UTCformat and github ripo.
 
-![Image](https://github.com/user-attachments/assets/a792b285-ece5-4307-ae13-3ba707228a47)
+![Image](https://github.com/user-attachments/assets/74e98703-1815-4f6c-9931-5846821e741d)
 
 ## How to intall this project 
 * clone this project
