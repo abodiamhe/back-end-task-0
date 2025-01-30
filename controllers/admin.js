@@ -12,3 +12,5 @@ exports.getAdmin = (rea, res, next) => {
     next(err)
   }
 };
+
+ 

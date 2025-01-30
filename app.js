@@ -1,6 +1,8 @@
 const express = require("express");
+const env = require("dotenv")
 
 const app = express();
+env.config()
 
 const adminRoutes = require("./routes/admin");
 
@@ -22,4 +24,4 @@ app.use((error, req, res, next) => {
   res.status(status).json({ message: "An error occured" });
 });
 
-app.listen(8080);
+app.listen(process.env.PORT || 3000);
