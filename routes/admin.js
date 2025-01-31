@@ -4,6 +4,6 @@ const adminCoutroller = require("../controllers/admin");
 
 const router = express.Router();
 
-router.get("/detail", adminCoutroller.getAdmin);
+router.get("/", adminCoutroller.getAdmin);
 
 module.exports = router;
