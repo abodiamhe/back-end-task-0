@@ -4,7 +4,7 @@ exports.getAdmin = (rea, res, next) => {
   try {
     res.status(200).json({
       email: "akhigbesadiq@gmail.com",
-      current_datatime: currentDate,
+      current_datetime: currentDate,
       github_url: "https://github.com/abodiamhe/back-end-task-0",
     });
   } catch (err) {
